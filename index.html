@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-S5ZPNKJ7HR"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-S5ZPNKJ7HR');
+	</script>
+  
+	<meta charset="utf-8">
+	<title>GA Test - Scripts</title>
+	
+	<script src="js/add_payment_info.js"></script>
+	<script src="js/add_shipping_info.js"></script>
+	<script src="js/add_to_cart.js"></script>
+	<script src="js/add_to_wishlist.js"></script>
+	<script src="js/begin_checkout.js"></script>
+	<script src="js/purchase.js"></script>
+	<script src="js/remove_from_cart.js"></script>
+	<script src="js/select_item.js"></script>
+	<script src="js/select_promotion.js"></script>
+	<script src="js/user_id_login.js"></script>
+	<script src="js/view_cart.js"></script>
+	<script src="js/view_item_list.js"></script>
+	<script src="js/view_item.js"></script>
+	<script src="js/view_promotion.js"></script>
+	
+</head>
+<body>
+<table width="100%" align="center">
+	<tr>
+		<td>
+			<a id="add_payment_info_a" href="#">Add Payment</a>
+			<br>
+			<a id="add_shipping_info_a" href="#">Add Shipping Info</a>
+			<br>
+			<a id="add_to_cart_a" href="#">Add to Cart</a>
+			<br>
+			<a id="add_to_wishlist_a" href="#">Add to Wishlist</a>
+			<br>
+			<a id="begin_checkout_a" href="#">Begin Checkout</a>
+			<br>
+			<a id="purchase_a" href="#">Purchase</a>
+			<br>
+			<a id="remove_from_cart_a" href="#">Remove From Cart</a>
+			<br>
+			<a id="select_item_a" href="#">Select Items</a>
+			<br>
+			<a id="select_promotion_a" href="#">Select Promotion</a>
+			<br>
+			<a id="user_id_login_a" href="#">User ID Login</a>
+			<br>
+			<a id="view_cart_a" href="#">View Cart</a>
+			<br>
+			<a id="view_item_list_a" href="#">View Item List</a>
+			<br>
+			<a id="view_item_a" href="#">View Item</a>
+			<br>
+			<a id="view_promotion_a" href="#">View Promotion</a>
+		</td>
+	</tr>
+</table>
+<script type="text/javascript">
+	add_payment_info_a = document.getElementById("add_payment_info_a");
+	add_payment_info_a.addEventListener("click", add_payment_info, false)
+
+	add_shipping_info_a = document.getElementById("add_shipping_info_a");
+	add_shipping_info_a.addEventListener("click", add_shipping_info, false)
+
+	add_to_cart_a = document.getElementById("add_to_cart_a");
+	add_to_cart_a.addEventListener("click", add_to_cart, false)
+
+	add_to_wishlist_a = document.getElementById("add_to_wishlist_a");
+	add_to_wishlist_a.addEventListener("click", add_to_wishlist, false)
+
+	begin_checkout_a = document.getElementById("begin_checkout_a");
+	begin_checkout_a.addEventListener("click", begin_checkout, false)
+
+	purchase_a = document.getElementById("purchase_a");
+	purchase_a.addEventListener("click", purchase, false)
+
+	remove_from_cart_a = document.getElementById("remove_from_cart_a");
+	remove_from_cart_a.addEventListener("click", remove_from_cart, false)
+
+	select_item_a = document.getElementById("select_item_a");
+	select_item_a.addEventListener("click", select_item, false)
+
+	select_promotion_a = document.getElementById("select_promotion_a");
+	select_promotion_a.addEventListener("click", select_promotion, false)
+
+	user_id_login_a = document.getElementById("user_id_login_a");
+	user_id_login_a.addEventListener("click", user_id_login, false)
+
+	view_cart_a = document.getElementById("view_cart_a");
+	view_cart_a.addEventListener("click", view_cart, false)
+
+	view_item_list_a = document.getElementById("view_item_list_a");
+	view_item_list_a.addEventListener("click", view_item_list, false)
+
+	view_item_a = document.getElementById("view_item_a");
+	view_item_a.addEventListener("click", view_item, false)
+
+	view_promotion_a = document.getElementById("view_promotion_a");
+	view_promotion_a.addEventListener("click", view_promotion, false)
+</script>
+</body>
+</html>
